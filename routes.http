@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://node-test-nx4n.onrender.com/videos
 Content-type: application/json
 
 {
@@ -9,19 +9,19 @@ Content-type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://node-test-nx4n.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/fd6f1e55-3202-47db-a666-0f05df284874
+PUT https://node-test-nx4n.onrender.com/videos/36de2298-d8b0-4f39-acf5-9b99c1c9284f
 Content-type: application/json
 
 {
-    "title": "video banana",
+    "title": "video completo",
     "description": "video novo",
     "duration": 100
 }
 
 ###
 
-DELETE http://localhost:3333/videos/fd6f1e55-3202-47db-a666-0f05df284874
+DELETE https://node-test-nx4n.onrender.com/videos/e2d3a044-7a65-4b69-a14f-b830770f06ac
