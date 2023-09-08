@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+    "title": "video node",
+    "description": "video novo",
+    "duration": 100
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/fd6f1e55-3202-47db-a666-0f05df284874
+Content-type: application/json
+
+{
+    "title": "video banana",
+    "description": "video novo",
+    "duration": 100
+}
+
+###
+
+DELETE http://localhost:3333/videos/fd6f1e55-3202-47db-a666-0f05df284874
